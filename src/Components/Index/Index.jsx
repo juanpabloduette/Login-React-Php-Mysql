@@ -54,48 +54,50 @@ const Index = (props) => {
   }
   
     return (
-    <div className='login'>
-        Login
-        <form action="">
-            <div className="input-group mb-3">
-                <span className="input-group-text" id="basic-addon1">
-                   <UserIcon />
-                </span>
-                <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Username"
-                    aria-label="Username"
-                    aria-describedby="basic-addon1"
-                    ref={refUser}
-                />
-            </div>
-            <div className="input-group mb-3">
-                <span className="input-group-text" id="basic-addon1">
-                <PasswordIcon />
-                </span>
-                <input
-                    type="password"
-                    className="form-control"
-                    placeholder="Password"
-                    aria-label="Password"
-                    aria-describedby="basic-addon1"
-                    ref={refPassword}
-                />
-            </div>
-          {
-            error && 
-            <div className="alert alert-danger">
-               {error}
-            </div>
-          }
-            
-            <button 
-            className="btn btn-dark"
-            disabled={espera}
-            onClick={handleLogin}
-            >Join</button>
-        </form>
+    <div className="box-login">
+        <div className='login'>
+            Login
+            <form action="">
+                <div className="input-group mb-3">
+                    <span className="input-group-text" id="basic-addon1">
+                    <UserIcon />
+                    </span>
+                    <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Username"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        ref={refUser}
+                    />
+                </div>
+                <div className="input-group mb-3">
+                    <span className="input-group-text" id="basic-addon1">
+                    <PasswordIcon />
+                    </span>
+                    <input
+                        type="password"
+                        className="form-control"
+                        placeholder="Password"
+                        aria-label="Password"
+                        aria-describedby="basic-addon1"
+                        ref={refPassword}
+                    />
+                </div>
+            {
+                error && 
+                <div className="alert alert-danger">
+                {error}
+                </div>
+            }
+                
+                <button 
+                className="btn btn-dark"
+                disabled={espera}
+                onClick={handleLogin}
+                >Join</button>
+            </form>
+        </div>
     </div>
   )
 }

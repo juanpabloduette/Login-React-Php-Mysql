@@ -1,0 +1,12 @@
+.box-home {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Ajusta el color del texto de la tabla
+#myTable {
+	color: #c7c7c7; 
+} */

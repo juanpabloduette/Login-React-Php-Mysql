@@ -21,3 +21,14 @@
 .login form button {
 	padding: 5px;
 }
+
+.box-login {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.alert-danger {
+	border: 2px solid #842029 !important;
+}
