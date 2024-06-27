@@ -5,7 +5,8 @@ import Home from './Components/Home/Home'
 function App() {
   
   const [conectado,setConectado] = useState(false);
-  const acceder=(estado)=>{
+
+  const acceder = (estado) => {
     setConectado(estado)
   }
 
@@ -13,7 +14,6 @@ function App() {
           <main>
             { conectado ? <Home /> : <Index acceder={acceder}/> }
           </main>
-          
   )
 }
 

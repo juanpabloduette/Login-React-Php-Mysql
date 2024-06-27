@@ -19,9 +19,9 @@ const sendData = async (url, data) => {
         if (!res.ok){
             console.log('error',error)
         }else{
-            console.log(res);
+            // console.log(res);
             const json = await res.json();
-            console.log(json)
+            // console.log(json)
             return json;
         }
    
@@ -75,7 +75,7 @@ const Index = (props) => {
                 <PasswordIcon />
                 </span>
                 <input
-                    type="text"
+                    type="password"
                     className="form-control"
                     placeholder="Password"
                     aria-label="Password"
