@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
-import PasswordIcon from '../../svgs/PasswordIcon'
-import UserIcon from '../../svgs/UserIcon'
+import PasswordIcon from '../../assets/svgs/PasswordIcon'
+import UserIcon from '../../assets/svgs/UserIcon'
 import './Index.css'
 const URL_LOGIN = 'http://localhost/microservices/login.php';
 
