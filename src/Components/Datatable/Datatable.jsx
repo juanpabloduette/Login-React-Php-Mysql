@@ -1,5 +1,6 @@
 import './Datatable.css'
-
+import './responsive.dataTables.min.css'
+import './responsive.bootstrap5.css'
 // Asegúrate de importar React y otros hooks necesarios.
 import { useEffect } from 'react';
 // Importa jQuery y DataTables.
