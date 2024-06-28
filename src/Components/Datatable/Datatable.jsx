@@ -1,6 +1,5 @@
 import './Datatable.css'
-import './responsive.dataTables.min.css'
-import './responsive.bootstrap5.css'
+
 // Asegúrate de importar React y otros hooks necesarios.
 import { useEffect } from 'react';
 // Importa jQuery y DataTables.
@@ -13,8 +12,8 @@ import 'datatables.net-buttons/js/buttons.print';
 
 // Importa CSS de DataTables y los módulos necesarios.
 import 'datatables.net-dt/css/dataTables.dataTables.css';
-// import 'datatables.net-responsive-dt/css/responsive.dataTables.css'; NO ESTA ESTO EN NODE MODULES
-
+import './responsive.dataTables.min.css'
+import './responsive.bootstrap5.css'
 // Importa DataTables y sus extensiones.
 import 'datatables.net-dt';
 import 'datatables.net-responsive';
@@ -57,6 +56,9 @@ const Datatable = () => {
               },
           ],
           responsive: true,
+        //   language: {
+		// 	url: "../assets/language/es-MX.json",
+		// },
           pagingType: "simple_numbers",
       });
 
