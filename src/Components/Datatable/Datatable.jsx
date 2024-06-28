@@ -21,6 +21,7 @@ import 'datatables.net-responsive';
 import jszip from 'jszip';
 import pdfMake from 'pdfmake/build/pdfmake';
 import pdfFonts from 'pdfmake/build/vfs_fonts';
+
 // Necesario para que la exportación a Excel y PDF funcione
 window.JSZip = jszip;
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
