@@ -1,0 +1,103 @@
+/* dark-theme.css */
+
+/* Estilos generales para el contenedor de DataTables */
+.dataTables_wrapper {
+	color: #fff;
+	background-color: #2d2d2d;
+}
+
+/* Estilos para los encabezados y celdas de la tabla */
+table.dataTable thead {
+	background-color: #444;
+	color: #fff;
+}
+
+table.dataTable tbody {
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+table.dataTable thead th,
+table.dataTable tbody td {
+	border-color: #444;
+}
+
+/* Estilos para los botones de exportación */
+.dt-buttons .btn {
+	background-color: #444;
+	color: #fff;
+	border: 1px solid #555;
+}
+
+.dt-buttons .btn:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+/* Estilos específicos para los botones de exportación */
+.dt-buttons .buttons-excel {
+	background-color: #1a73e8;
+}
+
+.dt-buttons .buttons-pdf {
+	background-color: #e74c3c;
+}
+
+.dt-buttons .buttons-print {
+	background-color: #2ecc71;
+}
+
+/* Estilos para el selector de cantidad de entradas */
+.dataTables_length label,
+.dataTables_length select {
+	color: #fff;
+	background-color: #2d2d2d;
+	border: 1px solid #444;
+}
+
+.dataTables_length select option {
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+/* Estilos para el texto informativo */
+.dataTables_info {
+	color: #fff;
+}
+
+/* Estilos para la paginación */
+.dataTables_paginate {
+	color: #fff;
+}
+
+.dataTables_paginate .paginate_button {
+	background-color: #2d2d2d;
+	color: #fff;
+	border: 1px solid #444;
+}
+
+.dataTables_paginate .paginate_button:hover,
+.dataTables_paginate .paginate_button.current {
+	background-color: #1a1a1a;
+}
+
+.dt-search label {
+	color: #fff;
+}
+
+.dt-length label {
+	color: #fff;
+}
+
+div.dt-container .dt-length .dt-input {
+	color: #fff;
+}
+
+div.dt-container .dt-info {
+	color: #fff;
+}
+
+div.dt-container .dt-paging {
+	color: #fff;
+	/* border: 1px solid #fff; */
+}
